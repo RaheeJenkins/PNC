@@ -52,8 +52,8 @@ public class BaseUtil {
 //            dc.setCapability("deviceQuery", "@serialnumber='65564f4c380fcc443cd2d05639ae750875b53ee3'");
             dc.setCapability("deviceQuery", "@os='ios'");
             dc.setCapability(MobileCapabilityType.BROWSER_NAME, BrowserType.SAFARI);
-            driver.set(new IOSDriver<>(new URL(CLOUD_URL), dc));
             dc.setCapability("PNC", "PNC_IOS_Web");
+            driver.set(new IOSDriver<>(new URL(CLOUD_URL), dc));
         }
         getDriver().rotate(ScreenOrientation.PORTRAIT);
     }

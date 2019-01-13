@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="257.305" tests="24" errors="0" skipped="0" failures="7">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="347.532" tests="24" errors="0" skipped="0" failures="10">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Rahee\AppData\Local\Temp\surefire7066181959500457356\surefirebooter4517276308304711750.jar C:\Users\Rahee\AppData\Local\Temp\surefire7066181959500457356 2019-01-11T17-33-07_934-jvmRun2 surefire2354486830220335301tmp surefire_15477923059355866618tmp"/>
+    <property name="sun.java.command" value="C:\Users\Rahee\AppData\Local\Temp\surefire1941816621994473857\surefirebooter4826051804254510753.jar C:\Users\Rahee\AppData\Local\Temp\surefire1941816621994473857 2019-01-13T14-37-43_716-jvmRun1 surefire1645748212958424996tmp surefire_04878417123998089538tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Rahee\IdeaProjects\PNC\PNCMobile\target\test-classes;C:\Users\Rahee\IdeaProjects\PNC\PNCMobile\target\classes;C:\Users\Rahee\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\Rahee\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Rahee\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\Rahee\.m2\repository\io\appium\java-client\6.0.0\java-client-6.0.0.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\Rahee\.m2\repository\com\google\code\gson\gson\2.8.4\gson-2.8.4.jar;C:\Users\Rahee\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Rahee\.m2\repository\cglib\cglib\3.2.6\cglib-3.2.6.jar;C:\Users\Rahee\.m2\repository\org\ow2\asm\asm\6.0\asm-6.0.jar;C:\Users\Rahee\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\Rahee\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\Rahee\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\Rahee\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\Rahee\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\Rahee\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Rahee\.m2\repository\org\apache\commons\commons-lang3\3.7\commons-lang3-3.7.jar;C:\Users\Rahee\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Rahee\.m2\repository\org\springframework\spring-context\5.0.5.RELEASE\spring-context-5.0.5.RELEASE.jar;C:\Users\Rahee\.m2\repository\org\springframework\spring-aop\5.0.5.RELEASE\spring-aop-5.0.5.RELEASE.jar;C:\Users\Rahee\.m2\repository\org\springframework\spring-beans\5.0.5.RELEASE\spring-beans-5.0.5.RELEASE.jar;C:\Users\Rahee\.m2\repository\org\springframework\spring-core\5.0.5.RELEASE\spring-core-5.0.5.RELEASE.jar;C:\Users\Rahee\.m2\repository\org\springframework\spring-jcl\5.0.5.RELEASE\spring-jcl-5.0.5.RELEASE.jar;C:\Users\Rahee\.m2\repository\org\springframework\spring-expression\5.0.5.RELEASE\spring-expression-5.0.5.RELEASE.jar;C:\Users\Rahee\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\Rahee\.m2\repository\org\openpnp\opencv\3.2.0-1\opencv-3.2.0-1.jar;C:\Users\Rahee\.m2\repository\javax\websocket\javax.websocket-api\1.1\javax.websocket-api-1.1.jar;C:\Users\Rahee\.m2\repository\org\glassfish\tyrus\tyrus-client\1.13.1\tyrus-client-1.13.1.jar;C:\Users\Rahee\.m2\repository\org\glassfish\tyrus\tyrus-core\1.13.1\tyrus-core-1.13.1.jar;C:\Users\Rahee\.m2\repository\org\glassfish\tyrus\tyrus-spi\1.13.1\tyrus-spi-1.13.1.jar;C:\Users\Rahee\.m2\repository\org\glassfish\tyrus\tyrus-container-grizzly\1.2.1\tyrus-container-grizzly-1.2.1.jar;C:\Users\Rahee\.m2\repository\org\glassfish\grizzly\grizzly-framework\2.3.3\grizzly-framework-2.3.3.jar;C:\Users\Rahee\.m2\repository\org\glassfish\grizzly\grizzly-http-server\2.3.3\grizzly-http-server-2.3.3.jar;C:\Users\Rahee\.m2\repository\org\glassfish\grizzly\grizzly-http\2.3.3\grizzly-http-2.3.3.jar;C:\Users\Rahee\.m2\repository\org\glassfish\grizzly\grizzly-rcm\2.3.3\grizzly-rcm-2.3.3.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\Rahee\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\Rahee\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\Rahee\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Rahee\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Rahee\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Rahee\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\Rahee\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Rahee\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Rahee\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Rahee\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Rahee\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Rahee\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Rahee\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\Rahee\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\Rahee\.m2\repository\com\experitest\reporter-testng\12.2\reporter-testng-12.2.jar;C:\Users\Rahee\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\Rahee\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Rahee"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Rahee\AppData\Local\Temp\surefire7066181959500457356\surefirebooter4517276308304711750.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Rahee\AppData\Local\Temp\surefire1941816621994473857\surefirebooter4826051804254510753.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,12 +60,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="user_should_be_on_savings_page" classname="tests.SavingsRelatedTest" time="0.093">
+  <testcase name="user_should_be_on_savings_page" classname="tests.SavingsRelatedTest" time="8.589">
     <failure message="Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class=&apos;nav-toggle&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class='nav-toggle'] (tried for 20 second(s) with 500 milliseconds interval)
 	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:30)
 Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.xpath: //*[@class='nav-toggle']
 	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:30)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5ed0a2eb (tried for 1 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@15d0f62e (tried for 1 second(s) with 500 milliseconds interval)
 	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:30)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='nav-toggle']"}
@@ -76,43 +76,43 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'WINDOWS-KEN7H9H', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os='android', newSessionWaitTimeout: 300.0, platformName: Android, testName: user_should_be_on_savings_page}, device.category: PHONE, device.majorVersion: 5, device.manufacture: HUAWEI, device.model: HUAWEI GRA-L09, device.name: HUAWEI A0141, device.os: Android, device.screenSize: 1080x1920, device.serialNumber: S7M0215829004355, device.version: 5.0, deviceQuery: @os='android', deviceUDID: S7M0215829004355, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7828, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_savings_page, udid: S7M0215829004355, useKeystore: false, waitForDeviceTimeout: 120000.0}
-Session ID: CLOUD-SID:2019-01-12_00-33-02-a2c46ae0-ce17-4bba-aa4e-1ed544820274
+Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os='android', newSessionWaitTimeout: 300.0, platformName: Android, testName: user_should_be_on_savings_page}, device.category: PHONE, device.majorVersion: 5, device.manufacture: HUAWEI, device.model: HUAWEI GRA-L09, device.name: HUAWEI A0141, device.os: Android, device.screenSize: 1080x1920, device.serialNumber: S7M0215829004355, device.version: 5.0, deviceQuery: @os='android', deviceUDID: S7M0215829004355, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7785, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_savings_page, udid: S7M0215829004355, useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-13_21-37-38-1c38c6fc-33b7-4969-a6e6-4cd8f79acb0b
 *** Element info: {Using=xpath, value=//*[@class='nav-toggle']}
 	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:30)
 </failure>
-    <system-out><![CDATA[Fri Jan 11 17:34:11 EST 2019 [Thread[TestNG-tests-13,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.SavingsRelatedTest
+    <system-out><![CDATA[Sun Jan 13 14:38:52 EST 2019 [Thread[TestNG-tests-5,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.SavingsRelatedTest
 ]]></system-out>
-    <system-err><![CDATA[Jan 11, 2019 5:33:37 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+    <system-err><![CDATA[Jan 13, 2019 2:38:19 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: OSS
-Jan 11, 2019 5:33:38 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Jan 13, 2019 2:38:20 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: OSS
-Jan 11, 2019 5:33:41 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Jan 13, 2019 2:38:20 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: OSS
-Jan 11, 2019 5:33:42 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Jan 13, 2019 2:38:20 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: OSS
-Jan 11, 2019 5:33:42 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Jan 13, 2019 2:38:21 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: OSS
-Jan 11, 2019 5:33:44 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Jan 13, 2019 2:38:23 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: OSS
-Jan 11, 2019 5:33:44 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Jan 13, 2019 2:38:24 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: OSS
-Jan 11, 2019 5:33:49 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Jan 13, 2019 2:38:25 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: OSS
-Jan 11, 2019 5:33:53 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Jan 13, 2019 2:38:26 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: OSS
-Jan 11, 2019 5:33:53 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Jan 13, 2019 2:38:31 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: OSS
-Jan 11, 2019 5:33:54 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Jan 13, 2019 2:38:33 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="user_should_be_on_savings_page" classname="tests.SavingsRelatedTest" time="6.062">
+  <testcase name="user_should_be_on_savings_page" classname="tests.SavingsRelatedTest" time="8.88">
     <failure message="Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class=&apos;nav-toggle&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class='nav-toggle'] (tried for 20 second(s) with 500 milliseconds interval)
 	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:30)
 Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.xpath: //*[@class='nav-toggle']
 	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:30)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@360fe547 (tried for 1 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@69f8649c (tried for 1 second(s) with 500 milliseconds interval)
 	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:30)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='nav-toggle']"}
@@ -123,21 +123,25 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'WINDOWS-KEN7H9H', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os='android', newSessionWaitTimeout: 300.0, platformName: Android, testName: user_should_be_on_savings_page}, device.category: PHONE, device.majorVersion: 5, device.manufacture: HUAWEI, device.model: ALE-L02, device.name: HUAWEI ALE-L02, device.os: Android, device.screenSize: 720x1280, device.serialNumber: N2K7N16811000808, device.version: 5.0.1, deviceQuery: @os='android', deviceUDID: N2K7N16811000808, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7829, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_savings_page, udid: N2K7N16811000808, useKeystore: false, waitForDeviceTimeout: 120000.0}
-Session ID: CLOUD-SID:2019-01-12_00-33-02-94cafeea-5cf5-4f44-bb5e-005c7a9536c6
+Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os='android', newSessionWaitTimeout: 300.0, platformName: Android, testName: user_should_be_on_savings_page}, device.category: PHONE, device.majorVersion: 5, device.manufacture: HUAWEI, device.model: HUAWEI GRA-L09, device.name: HUAWEI A0141, device.os: Android, device.screenSize: 1080x1920, device.serialNumber: S7M0215829004355, device.version: 5.0, deviceQuery: @os='android', deviceUDID: S7M0215829004355, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7788, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_savings_page, udid: S7M0215829004355, useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-13_21-38-48-2bdb82e4-3c29-47e4-9d02-da782925c49c
 *** Element info: {Using=xpath, value=//*[@class='nav-toggle']}
 	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:30)
 </failure>
-    <system-out><![CDATA[Fri Jan 11 17:34:17 EST 2019 [Thread[TestNG-tests-5,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.SavingsRelatedTest
+    <system-out><![CDATA[Sun Jan 13 14:39:58 EST 2019 [Thread[TestNG-tests-5,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.SavingsRelatedTest
 ]]></system-out>
+    <system-err><![CDATA[Jan 13, 2019 2:39:37 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: OSS
+Jan 13, 2019 2:39:45 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: OSS
+Jan 13, 2019 2:39:48 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: OSS
+]]></system-err>
   </testcase>
-  <testcase name="user_should_be_on_savings_page" classname="tests.SavingsRelatedTest" time="21.374"/>
-  <testcase name="user_should_be_on_savings_page" classname="tests.SavingsRelatedTest" time="41.525"/>
-  <testcase name="user_should_be_on_savings_page" classname="tests.SavingsRelatedTest" time="3.904"/>
-  <testcase name="user_should_be_on_savings_page" classname="tests.SavingsRelatedTest" time="8.256">
+  <testcase name="user_should_be_on_savings_page" classname="tests.SavingsRelatedTest" time="9.077">
     <failure message="Can&apos;t locate an element by this strategy: By.xpath: //h3[text()=&apos;Is this your zip code?&apos;]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.xpath: //h3[text()='Is this your zip code?']
 	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:34)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@8e2cf1a (tried for 1 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@f4b920d (tried for 1 second(s) with 500 milliseconds interval)
 	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:34)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 no such element (An element could not be located on the page using the given search parameters (XPATH='//h3[text()='Is this your zip code?']'))  (WARNING: The server did not provide any stacktrace information)
@@ -146,24 +150,99 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'WINDOWS-KEN7H9H', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: io.appium.java_client.ios.IOSDriver
-Capabilities {appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, automationName: XCUITest, browserName: safari, cloudViewLink: https://sales.experitest.co..., desired: {browserName: safari, deviceQuery: @os='ios', newSessionWaitTimeout: 300.0, platformName: iOS, testName: user_should_be_on_savings_page}, device.category: PHONE, device.majorVersion: 12, device.manufacture: Apple, device.model: iPhone 6, device.name: iPhone A0080, device.os: iOS, device.screenSize: 750x1334, device.serialNumber: 434b5c60cf11b9a3355cc1f732f..., device.version: 12.0, deviceQuery: @os='ios', deviceUDID: 434b5c60cf11b9a3355cc1f732f..., dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-9, fullReset: false, gridNodePort: 7857, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: IOS, platformName: IOS, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_savings_page, udid: 434b5c60cf11b9a3355cc1f732f..., useKeystore: false, waitForDeviceTimeout: 120000.0}
-Session ID: CLOUD-SID:2019-01-12_00-33-02-44481a9e-7c8c-4032-adea-39cd86342f05
+Capabilities {appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, automationName: XCUITest, browserName: safari, cloudViewLink: https://sales.experitest.co..., desired: {browserName: safari, deviceQuery: @os='ios', newSessionWaitTimeout: 300.0, platformName: iOS, testName: user_should_be_on_savings_page}, device.category: PHONE, device.majorVersion: 11, device.manufacture: Apple, device.model: iPhone 8+, device.name: iPhone 8 Plus B0166, device.os: iOS, device.screenSize: 1242x2208, device.serialNumber: 81fbdb60549592832dd27664726..., device.version: 11.1, deviceQuery: @os='ios', deviceUDID: 81fbdb60549592832dd27664726..., dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7781, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: IOS, platformName: IOS, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_savings_page, udid: 81fbdb60549592832dd27664726..., useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-13_21-37-38-ba113f0b-af37-4d99-a7f1-43835d294ba4
 *** Element info: {Using=xpath, value=//h3[text()='Is this your zip code?']}
 	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:34)
 </failure>
-    <system-out><![CDATA[Fri Jan 11 17:36:11 EST 2019 [Thread[TestNG-tests-22,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.SavingsRelatedTest
+    <system-out><![CDATA[Sun Jan 13 14:40:37 EST 2019 [Thread[TestNG-tests-6,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.SavingsRelatedTest
 ]]></system-out>
-    <system-err><![CDATA[Jan 11, 2019 5:36:04 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+  </testcase>
+  <testcase name="user_should_be_on_savings_page" classname="tests.SavingsRelatedTest" time="16.749">
+    <failure message="Can&apos;t locate an element by this strategy: By.xpath: //h3[text()=&apos;Is this your zip code?&apos;]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.xpath: //h3[text()='Is this your zip code?']
+	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:34)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@79e588f6 (tried for 1 second(s) with 500 milliseconds interval)
+	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:34)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element (An element could not be located on the page using the given search parameters (XPATH='//h3[text()='Is this your zip code?']'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'WINDOWS-KEN7H9H', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, automationName: XCUITest, browserName: safari, cloudViewLink: https://sales.experitest.co..., desired: {browserName: safari, deviceQuery: @os='ios', newSessionWaitTimeout: 300.0, platformName: iOS, testName: user_should_be_on_savings_page}, device.category: PHONE, device.majorVersion: 12, device.manufacture: Apple, device.model: iPhone X, device.name: appleId’s iPhone, device.os: iOS, device.screenSize: 1125x2436, device.serialNumber: 91368220f9115386c03c99d720b..., device.version: 12.0, deviceQuery: @os='ios', deviceUDID: 91368220f9115386c03c99d720b..., dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-9, fullReset: false, gridNodePort: 7804, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: IOS, platformName: IOS, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_savings_page, udid: 91368220f9115386c03c99d720b..., useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-13_21-38-49-1a2b95be-5b32-4520-a36c-e97b11b69b59
+*** Element info: {Using=xpath, value=//h3[text()='Is this your zip code?']}
+	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:34)
+</failure>
+    <system-out><![CDATA[Sun Jan 13 14:40:44 EST 2019 [Thread[TestNG-tests-3,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.SavingsRelatedTest
+]]></system-out>
+    <system-err><![CDATA[Jan 13, 2019 2:40:41 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="user_should_be_on_checking_page" classname="tests.CheckingRelatedTest" time="3.934">
+  <testcase name="user_should_be_on_savings_page" classname="tests.SavingsRelatedTest" time="2.342">
     <failure message="Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class=&apos;nav-toggle&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class='nav-toggle'] (tried for 20 second(s) with 500 milliseconds interval)
-	at tests.CheckingRelatedTest.user_should_be_on_checking_page(CheckingRelatedTest.java:30)
+	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:30)
 Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.xpath: //*[@class='nav-toggle']
-	at tests.CheckingRelatedTest.user_should_be_on_checking_page(CheckingRelatedTest.java:30)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4466bf49 (tried for 1 second(s) with 500 milliseconds interval)
-	at tests.CheckingRelatedTest.user_should_be_on_checking_page(CheckingRelatedTest.java:30)
+	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:30)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@23f8d71b (tried for 1 second(s) with 500 milliseconds interval)
+	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:30)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='nav-toggle']"}
+  (Session info: chrome=71.0.3578.99)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'WINDOWS-KEN7H9H', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os='android', newSessionWaitTimeout: 300.0, platformName: Android, testName: user_should_be_on_savings_page}, device.category: PHONE, device.majorVersion: 5, device.manufacture: HUAWEI, device.model: ALE-L02, device.name: HUAWEI ALE-L02, device.os: Android, device.screenSize: 720x1280, device.serialNumber: N2K7N16811000808, device.version: 5.0.1, deviceQuery: @os='android', deviceUDID: N2K7N16811000808, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7791, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_savings_page, udid: N2K7N16811000808, useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-13_21-39-26-a2c64a87-a2ca-4abc-8e4d-d3ec3d7daa8d
+*** Element info: {Using=xpath, value=//*[@class='nav-toggle']}
+	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:30)
+</failure>
+    <system-out><![CDATA[Sun Jan 13 14:40:48 EST 2019 [Thread[TestNG-tests-8,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.SavingsRelatedTest
+]]></system-out>
+  </testcase>
+  <testcase name="user_should_be_on_savings_page" classname="tests.SavingsRelatedTest" time="5.977">
+    <failure message="Can&apos;t locate an element by this strategy: By.xpath: //h3[text()=&apos;Is this your zip code?&apos;]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.xpath: //h3[text()='Is this your zip code?']
+	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:34)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@64d9a36b (tried for 1 second(s) with 500 milliseconds interval)
+	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:34)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element (An element could not be located on the page using the given search parameters (XPATH='//h3[text()='Is this your zip code?']'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'WINDOWS-KEN7H9H', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, automationName: XCUITest, browserName: safari, cloudViewLink: https://sales.experitest.co..., desired: {browserName: safari, deviceQuery: @os='ios', newSessionWaitTimeout: 300.0, platformName: iOS, testName: user_should_be_on_savings_page}, device.category: PHONE, device.majorVersion: 12, device.manufacture: Apple, device.model: iPhone 6, device.name: iPhone A0080, device.os: iOS, device.screenSize: 750x1334, device.serialNumber: 434b5c60cf11b9a3355cc1f732f..., device.version: 12.0, deviceQuery: @os='ios', deviceUDID: 434b5c60cf11b9a3355cc1f732f..., dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-9, fullReset: false, gridNodePort: 7805, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: IOS, platformName: IOS, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_savings_page, udid: 434b5c60cf11b9a3355cc1f732f..., useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-13_21-39-56-fee51ce0-48b9-4df9-9c35-2c5f3b0d6972
+*** Element info: {Using=xpath, value=//h3[text()='Is this your zip code?']}
+	at tests.SavingsRelatedTest.user_should_be_on_savings_page(SavingsRelatedTest.java:34)
+</failure>
+    <system-out><![CDATA[Sun Jan 13 14:41:50 EST 2019 [Thread[TestNG-tests-5,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.SavingsRelatedTest
+]]></system-out>
+    <system-err><![CDATA[Jan 13, 2019 2:41:15 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: OSS
+Jan 13, 2019 2:41:20 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="user_should_be_on_checking_page" classname="tests.CheckingRelatedTest" time="8.888"/>
+  <testcase name="user_should_be_on_checking_page" classname="tests.CheckingRelatedTest" time="21.97"/>
+  <testcase name="user_should_be_on_checking_page" classname="tests.CheckingRelatedTest" time="1.138"/>
+  <testcase name="user_should_be_on_checking_page" classname="tests.CheckingRelatedTest" time="5.941"/>
+  <testcase name="user_should_be_on_checking_page" classname="tests.CheckingRelatedTest" time="10.407"/>
+  <testcase name="user_should_be_on_checking_page" classname="tests.CheckingRelatedTest" time="84.093"/>
+  <testcase name="user_should_be_on_credit_cards_page" classname="tests.CreditCardsRelatedTest" time="10.862">
+    <failure message="Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class=&apos;nav-toggle&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class='nav-toggle'] (tried for 20 second(s) with 500 milliseconds interval)
+	at tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page(CreditCardsRelatedTest.java:30)
+Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.xpath: //*[@class='nav-toggle']
+	at tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page(CreditCardsRelatedTest.java:30)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@bf74eea (tried for 1 second(s) with 500 milliseconds interval)
+	at tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page(CreditCardsRelatedTest.java:30)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='nav-toggle']"}
   (Session info: chrome=69.0.3497.100)
@@ -173,50 +252,51 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'WINDOWS-KEN7H9H', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os='android', newSessionWaitTimeout: 300.0, platformName: Android, testName: user_should_be_on_checking_...}, device.category: PHONE, device.majorVersion: 8, device.manufacture: samsung, device.model: SM-N950F, device.name: Galaxy Note 8 A0259, device.os: Android, device.screenSize: 1080x2220, device.serialNumber: 988b5a43383648315830, device.version: 8.0.0, deviceQuery: @os='android', deviceUDID: 988b5a43383648315830, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7826, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_checking_..., udid: 988b5a43383648315830, useKeystore: false, waitForDeviceTimeout: 120000.0}
-Session ID: CLOUD-SID:2019-01-12_00-33-03-7bae9f6c-a7e7-4a06-8cdd-82a2937b6266
+Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os='android', newSessionWaitTimeout: 300.0, platformName: Android, testName: user_should_be_on_credit_ca...}, device.category: PHONE, device.majorVersion: 8, device.manufacture: samsung, device.model: SM-N950F, device.name: Galaxy Note 8 A0259, device.os: Android, device.screenSize: 1080x2220, device.serialNumber: 988b5a43383648315830, device.version: 8.0.0, deviceQuery: @os='android', deviceUDID: 988b5a43383648315830, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7783, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_credit_ca..., udid: 988b5a43383648315830, useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-13_21-37-38-7e6da7d3-ebb0-4ee1-a1d1-0098966f08f7
 *** Element info: {Using=xpath, value=//*[@class='nav-toggle']}
-	at tests.CheckingRelatedTest.user_should_be_on_checking_page(CheckingRelatedTest.java:30)
+	at tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page(CreditCardsRelatedTest.java:30)
 </failure>
-    <system-out><![CDATA[Fri Jan 11 17:34:15 EST 2019 [Thread[TestNG-tests-19,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.CheckingRelatedTest
+    <system-out><![CDATA[Sun Jan 13 14:38:54 EST 2019 [Thread[TestNG-tests-7,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.CreditCardsRelatedTest
 ]]></system-out>
   </testcase>
-  <testcase name="user_should_be_on_checking_page" classname="tests.CheckingRelatedTest" time="34.289"/>
-  <testcase name="user_should_be_on_checking_page" classname="tests.CheckingRelatedTest" time="3.168"/>
-  <testcase name="user_should_be_on_checking_page" classname="tests.CheckingRelatedTest" time="7.544">
+  <testcase name="user_should_be_on_credit_cards_page" classname="tests.CreditCardsRelatedTest" time="1.159"/>
+  <testcase name="user_should_be_on_credit_cards_page" classname="tests.CreditCardsRelatedTest" time="10.109"/>
+  <testcase name="user_should_be_on_credit_cards_page" classname="tests.CreditCardsRelatedTest" time="0.666">
     <failure message="Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class=&apos;nav-toggle&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class='nav-toggle'] (tried for 20 second(s) with 500 milliseconds interval)
-	at tests.CheckingRelatedTest.user_should_be_on_checking_page(CheckingRelatedTest.java:30)
+	at tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page(CreditCardsRelatedTest.java:30)
 Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.xpath: //*[@class='nav-toggle']
-	at tests.CheckingRelatedTest.user_should_be_on_checking_page(CheckingRelatedTest.java:30)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@d762450 (tried for 1 second(s) with 500 milliseconds interval)
-	at tests.CheckingRelatedTest.user_should_be_on_checking_page(CheckingRelatedTest.java:30)
+	at tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page(CreditCardsRelatedTest.java:30)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@6b0d313f (tried for 1 second(s) with 500 milliseconds interval)
+	at tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page(CreditCardsRelatedTest.java:30)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='nav-toggle']"}
-  (Session info: chrome=69.0.3497.100)
+  (Session info: chrome=71.0.3578.99)
   (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'WINDOWS-KEN7H9H', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os='android', newSessionWaitTimeout: 300.0, platformName: Android, testName: user_should_be_on_checking_...}, device.category: PHONE, device.majorVersion: 8, device.manufacture: samsung, device.model: SM-N950F, device.name: Galaxy Note 8 A0259, device.os: Android, device.screenSize: 1080x2220, device.serialNumber: 988b5a43383648315830, device.version: 8.0.0, deviceQuery: @os='android', deviceUDID: 988b5a43383648315830, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7830, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_checking_..., udid: 988b5a43383648315830, useKeystore: false, waitForDeviceTimeout: 120000.0}
-Session ID: CLOUD-SID:2019-01-12_00-33-02-2f965172-7a5d-4a66-9c61-1f5e071aff4a
+Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os='android', newSessionWaitTimeout: 300.0, platformName: Android, testName: user_should_be_on_credit_ca...}, device.category: PHONE, device.majorVersion: 5, device.manufacture: HUAWEI, device.model: HUAWEI GRA-L09, device.name: HUAWEI A0141, device.os: Android, device.screenSize: 1080x1920, device.serialNumber: S7M0215829004355, device.version: 5.0, deviceQuery: @os='android', deviceUDID: S7M0215829004355, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7793, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_credit_ca..., udid: S7M0215829004355, useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-13_21-39-58-3bb40604-81c7-4760-bc39-7a1eaf4f2c4f
 *** Element info: {Using=xpath, value=//*[@class='nav-toggle']}
-	at tests.CheckingRelatedTest.user_should_be_on_checking_page(CheckingRelatedTest.java:30)
+	at tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page(CreditCardsRelatedTest.java:30)
 </failure>
-    <system-out><![CDATA[Fri Jan 11 17:35:23 EST 2019 [Thread[TestNG-tests-11,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.CheckingRelatedTest
+    <system-out><![CDATA[Sun Jan 13 14:41:09 EST 2019 [Thread[TestNG-tests-10,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.CreditCardsRelatedTest
 ]]></system-out>
+    <system-err><![CDATA[Jan 13, 2019 2:41:05 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: OSS
+]]></system-err>
   </testcase>
-  <testcase name="user_should_be_on_checking_page" classname="tests.CheckingRelatedTest" time="2.259"/>
-  <testcase name="user_should_be_on_checking_page" classname="tests.CheckingRelatedTest" time="2.309"/>
-  <testcase name="verify_item_displayed_in_search_results_list" classname="tests.SearchResultsTest" time="7.468"/>
-  <testcase name="verify_item_displayed_in_search_results_list" classname="tests.SearchResultsTest" time="29.398"/>
-  <testcase name="verify_item_displayed_in_search_results_list" classname="tests.SearchResultsTest" time="10.702">
+  <testcase name="user_should_be_on_credit_cards_page" classname="tests.CreditCardsRelatedTest" time="15.219"/>
+  <testcase name="user_should_be_on_credit_cards_page" classname="tests.CreditCardsRelatedTest" time="28.137"/>
+  <testcase name="verify_item_displayed_in_search_results_list" classname="tests.SearchResultsTest" time="13.652">
     <failure message="Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class=&apos;nav-toggle&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class='nav-toggle'] (tried for 20 second(s) with 500 milliseconds interval)
 	at tests.SearchResultsTest.verify_item_displayed_in_search_results_list(SearchResultsTest.java:28)
 Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.xpath: //*[@class='nav-toggle']
 	at tests.SearchResultsTest.verify_item_displayed_in_search_results_list(SearchResultsTest.java:28)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@1974bf1b (tried for 1 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4471a096 (tried for 1 second(s) with 500 milliseconds interval)
 	at tests.SearchResultsTest.verify_item_displayed_in_search_results_list(SearchResultsTest.java:28)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='nav-toggle']"}
@@ -227,52 +307,45 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'WINDOWS-KEN7H9H', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os='android', newSessionWaitTimeout: 300.0, platformName: Android, testName: verify_item_displayed_in_se...}, device.category: PHONE, device.majorVersion: 5, device.manufacture: HUAWEI, device.model: ALE-L02, device.name: HUAWEI ALE-L02, device.os: Android, device.screenSize: 720x1280, device.serialNumber: N2K7N16811000808, device.version: 5.0.1, deviceQuery: @os='android', deviceUDID: N2K7N16811000808, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7832, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: verify_item_displayed_in_se..., udid: N2K7N16811000808, useKeystore: false, waitForDeviceTimeout: 120000.0}
-Session ID: CLOUD-SID:2019-01-12_00-33-02-9f05189d-90cf-465f-a0f5-58364df73258
+Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os='android', newSessionWaitTimeout: 300.0, platformName: Android, testName: verify_item_displayed_in_se...}, device.category: PHONE, device.majorVersion: 5, device.manufacture: HUAWEI, device.model: ALE-L02, device.name: HUAWEI ALE-L02, device.os: Android, device.screenSize: 720x1280, device.serialNumber: N2K7N16811000808, device.version: 5.0.1, deviceQuery: @os='android', deviceUDID: N2K7N16811000808, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7786, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: verify_item_displayed_in_se..., udid: N2K7N16811000808, useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-13_21-37-38-4350062b-5554-43fd-8c30-94270f2d06ce
 *** Element info: {Using=xpath, value=//*[@class='nav-toggle']}
 	at tests.SearchResultsTest.verify_item_displayed_in_search_results_list(SearchResultsTest.java:28)
 </failure>
-    <system-out><![CDATA[Fri Jan 11 17:35:26 EST 2019 [Thread[TestNG-tests-9,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.SearchResultsTest
+    <system-out><![CDATA[Sun Jan 13 14:38:57 EST 2019 [Thread[TestNG-tests-9,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.SearchResultsTest
 ]]></system-out>
-    <system-err><![CDATA[Jan 11, 2019 5:35:25 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
-INFO: Detected dialect: OSS
-]]></system-err>
   </testcase>
-  <testcase name="verify_item_displayed_in_search_results_list" classname="tests.SearchResultsTest" time="8.91"/>
-  <testcase name="verify_item_displayed_in_search_results_list" classname="tests.SearchResultsTest" time="10.25"/>
-  <testcase name="verify_item_displayed_in_search_results_list" classname="tests.SearchResultsTest" time="19.111"/>
-  <testcase name="user_should_be_on_credit_cards_page" classname="tests.CreditCardsRelatedTest" time="9.537"/>
-  <testcase name="user_should_be_on_credit_cards_page" classname="tests.CreditCardsRelatedTest" time="1.234">
+  <testcase name="verify_item_displayed_in_search_results_list" classname="tests.SearchResultsTest" time="0.885"/>
+  <testcase name="verify_item_displayed_in_search_results_list" classname="tests.SearchResultsTest" time="8.457"/>
+  <testcase name="verify_item_displayed_in_search_results_list" classname="tests.SearchResultsTest" time="10.861"/>
+  <testcase name="verify_item_displayed_in_search_results_list" classname="tests.SearchResultsTest" time="1.554">
     <failure message="Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class=&apos;nav-toggle&apos;] (tried for 20 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.xpath: //*[@class='nav-toggle'] (tried for 20 second(s) with 500 milliseconds interval)
-	at tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page(CreditCardsRelatedTest.java:30)
+	at tests.SearchResultsTest.verify_item_displayed_in_search_results_list(SearchResultsTest.java:28)
 Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.xpath: //*[@class='nav-toggle']
-	at tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page(CreditCardsRelatedTest.java:30)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@41b35e5a (tried for 1 second(s) with 500 milliseconds interval)
-	at tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page(CreditCardsRelatedTest.java:30)
+	at tests.SearchResultsTest.verify_item_displayed_in_search_results_list(SearchResultsTest.java:28)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@195681bc (tried for 1 second(s) with 500 milliseconds interval)
+	at tests.SearchResultsTest.verify_item_displayed_in_search_results_list(SearchResultsTest.java:28)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='nav-toggle']"}
-  (Session info: chrome=71.0.3578.99)
+  (Session info: chrome=69.0.3497.100)
   (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'WINDOWS-KEN7H9H', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os='android', newSessionWaitTimeout: 300.0, platformName: Android, testName: user_should_be_on_credit_ca...}, device.category: PHONE, device.majorVersion: 5, device.manufacture: HUAWEI, device.model: HUAWEI GRA-L09, device.name: HUAWEI A0141, device.os: Android, device.screenSize: 1080x1920, device.serialNumber: S7M0215829004355, device.version: 5.0, deviceQuery: @os='android', deviceUDID: S7M0215829004355, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7831, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: user_should_be_on_credit_ca..., udid: S7M0215829004355, useKeystore: false, waitForDeviceTimeout: 120000.0}
-Session ID: CLOUD-SID:2019-01-12_00-33-02-4fccd0a7-6808-47cc-9e38-ccd6d87212d1
+Capabilities {PNC: PNC_Android_Web, appiumVersion: 1.8.0, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, browserName: chrome, cloudViewLink: https://sales.experitest.co..., desired: {PNC: PNC_Android_Web, browserName: chrome, deviceQuery: @os='android', newSessionWaitTimeout: 300.0, platformName: Android, testName: verify_item_displayed_in_se...}, device.category: PHONE, device.majorVersion: 8, device.manufacture: samsung, device.model: SM-N950F, device.name: Galaxy Note 8 A0259, device.os: Android, device.screenSize: 1080x2220, device.serialNumber: 988b5a43383648315830, device.version: 8.0.0, deviceQuery: @os='android', deviceUDID: 988b5a43383648315830, dontGoHomeOnQuit: false, dontStopAppOnReset: false, ehmPrefixUrl: /agent-11, fullReset: false, gridNodePort: 7789, install.only.for.update: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 300.0, noReset: false, platform: ANDROID, platformName: ANDROID, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: https://sales.experitest.co..., reservationDuration: 240.0, takeScreenshots: true, test.type: Mobile, testName: verify_item_displayed_in_se..., udid: 988b5a43383648315830, useKeystore: false, waitForDeviceTimeout: 120000.0}
+Session ID: CLOUD-SID:2019-01-13_21-38-56-10cd4086-5f3d-4c5b-919b-e6527d30f27c
 *** Element info: {Using=xpath, value=//*[@class='nav-toggle']}
-	at tests.CreditCardsRelatedTest.user_should_be_on_credit_cards_page(CreditCardsRelatedTest.java:30)
+	at tests.SearchResultsTest.verify_item_displayed_in_search_results_list(SearchResultsTest.java:28)
 </failure>
-    <system-out><![CDATA[Fri Jan 11 17:35:17 EST 2019 [Thread[TestNG-tests-23,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.CreditCardsRelatedTest
+    <system-out><![CDATA[Sun Jan 13 14:40:10 EST 2019 [Thread[TestNG-tests-12,5,main]][INFO] SeeTest reporterSetStatus - Status 'Failed' could not be sent to any drivers on the class tests.SearchResultsTest
 ]]></system-out>
-    <system-err><![CDATA[Jan 11, 2019 5:35:03 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+    <system-err><![CDATA[Jan 13, 2019 2:40:03 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: OSS
-Jan 11, 2019 5:35:15 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Jan 13, 2019 2:40:06 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="user_should_be_on_credit_cards_page" classname="tests.CreditCardsRelatedTest" time="6.824"/>
-  <testcase name="user_should_be_on_credit_cards_page" classname="tests.CreditCardsRelatedTest" time="9.105"/>
-  <testcase name="user_should_be_on_credit_cards_page" classname="tests.CreditCardsRelatedTest" time="28.444"/>
-  <testcase name="user_should_be_on_credit_cards_page" classname="tests.CreditCardsRelatedTest" time="29.647"/>
+  <testcase name="verify_item_displayed_in_search_results_list" classname="tests.SearchResultsTest" time="10.405"/>
 </testsuite>
